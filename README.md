@@ -19,7 +19,7 @@ Projekt został stworzony w ramach kursu i nauki Node.js. Napisany przy użyciu 
 
 
 ## Uruchamianie projektu
-Aby uruchomić projekt musisz mieć pobranego na komputerze Node.js i npm. Następnie:
+Aby uruchomić projekt musisz mieć pobranego na komputerze Node.js, npm i MongoDB. Następnie:
 1. Pobierz repozytorium na lokalny dysk.
 2. Ściągnij wykorzystane w projekcie moduły (node_modules) za pomocą komendy CLI "npm install" z poziomu katalogu, w którym znajduje się projekt.
 3. Skonfiguruj dane w pliku .env.example. W puste pola wprowadź:
