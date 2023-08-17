@@ -1,3 +1,4 @@
+PL
 
 # Projekt: Katalog firm
 Projekt został stworzony w ramach kursu i nauki Node.js. Napisany przy użyciu technologii, takich jak:
