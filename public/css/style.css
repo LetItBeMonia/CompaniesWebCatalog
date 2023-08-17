@@ -1,0 +1,9 @@
+body {
+    min-height: 100vh;
+    background: rgb(71,61,242);
+    background: linear-gradient(150deg, rgba(71,61,242,1) 0%, rgba(82,167,208,1) 0%, rgba(144,106,215,1) 100%);
+}
+
+.site-logo {
+    max-height: 40px;
+}
