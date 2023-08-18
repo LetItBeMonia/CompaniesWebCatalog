@@ -4,7 +4,7 @@ This project was made during the Node.js course. It was created using technologi
 - HTML, CSS, JavaScript
 - Node.js (Express.js)+ MongoDB
 
-## Used Concepts
+## Used Concepts (and technologies)
 - MVC framework
 - user login and registration
 - session
