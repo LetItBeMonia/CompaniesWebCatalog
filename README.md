@@ -39,7 +39,7 @@ Projekt został stworzony w ramach kursu i nauki Node.js. Napisany przy użyciu 
 - HTML, CSS, JavaScript
 - Node.js (Express.js)+ MongoDB
 
-## Wykorzystane koncepty
+## Wykorzystane koncepty (i technologie)
 - wzorzec MVC
 - rejestracja i logowanie użytkowników
 - sesja
