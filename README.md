@@ -54,7 +54,7 @@ Projekt został stworzony w ramach kursu i nauki Node.js. Napisany przy użyciu 
 
 
 ## Jak zobaczyć aplikację? | Uruchamianie aplikacji
-Aby uruchomić projekt musisz mieć pobranego na komputerze Node.js i npm. Jako bazy danych możesz użyć jednej z dwóch opcji: pobrać mongoDB na swój komputer lub utworzyć bazę danych, zakładając konto na stronie mongoDB. Następnie:
+Aby uruchomić projekt musisz mieć pobranego na komputer Node.js i npm. Jako bazy danych możesz użyć jednej z dwóch opcji: pobrać mongoDB na swój komputer lub utworzyć bazę danych, zakładając konto na stronie mongoDB. Następnie:
 1. Pobierz repozytorium na lokalny dysk.
 2. Ściągnij wykorzystane w projekcie moduły (node_modules) za pomocą komendy CLI "npm install" z poziomu katalogu, w którym znajduje się projekt.
 3. Skonfiguruj dane w pliku .env.example. W puste pola wprowadź:
