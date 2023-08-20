@@ -53,7 +53,7 @@ Projekt został stworzony w ramach kursu i nauki Node.js. Napisany przy użyciu 
 - dynamiczne szablony (ejsLayouts)
 
 
-## Uruchamianie projektu
+## Jak zobaczyć aplikację? | Uruchamianie aplikacji
 Aby uruchomić projekt musisz mieć pobranego na komputerze Node.js, npm. Jako bazy danych możesz użyć jednej z dwóch opcji: pobrać mongoDB na swój komputer lub utworzyć bazę danych, zakładając konto na stronie mongoDB. Następnie:
 1. Pobierz repozytorium na lokalny dysk.
 2. Ściągnij wykorzystane w projekcie moduły (node_modules) za pomocą komendy CLI "npm install" z poziomu katalogu, w którym znajduje się projekt.
