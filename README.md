@@ -19,7 +19,7 @@ This project was made during the Node.js course. It was created using technologi
 
 ## How to view the application? | Application Launching
 To launch the application you must have Node.js, npm downloaded on your computer. As for database you can either choose on-line mongoDB database or local mongoDB (in this case you also need to download it). Next:
-1. Download the repository to your local drive.
+1. Download this repository to your local drive.
 2. Download all node modules used in the project with the CLI "npm install" command from within a directory that you have put project files in.
 3. Configure data in .env.example file. In empty places input:
 	- PORT number in which you want the app to open (3000 by default)
