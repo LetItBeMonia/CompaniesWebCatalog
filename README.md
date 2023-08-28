@@ -24,7 +24,7 @@ To launch the application you must have Node.js and npm downloaded on your compu
 3. Create MongoDB database for the application with database name of your choice.
 4. Configure data in .env.example file. In empty places input:
 	- PORT number in which you want the app to open (8888 by default)
-	- database server adress ("mongodb://localhost:27017/your-database-name" is local mongoDB database adress by default on Windows if you chose the download option; replace "your-database-name" with database name that you chose previously)
+	- database server adress (example structue of the adress: "mongodb://localhost:XXXXX/your-database-name"; "mongodb://localhost:27017/your-database-name" is local mongoDB database adress by default on Windows if you chose the download option; replace "your-database-name" with database name that you chose previously)
 	- session key (it can be a string of random characters)
 5. Change the file's name from ".env.example" to ".env".
 6. To launch the app enter "npm run start" into your CLI.
@@ -61,7 +61,7 @@ Aby uruchomić projekt musisz mieć pobranego na komputer Node.js i npm. Jako ba
 3. Stwórz bazę danych MongoDB o dowolnie wybranej nazwie.
 4. Skonfiguruj dane w pliku .env.example. W puste pola wprowadź:
 	- numer PORT-u, na którym ma otworzyć się apka (domyślnie 8888)
-	- adres serwera bazy danych (domyślny adres lokalny dla serwera mongoDB w systemie Windows to "mongodb://localhost:27017/twoja-nazwa-bd" - jeśli wybrałaś/-eś opcję pobierania bazy danych; zamień "twoja-nazwa-bd" na nazwę bazy danych, którą wcześniej wybrałeś/-aś).
+	- adres serwera bazy danych (przykładowa struktura adresu: "mongodb://localhost:XXXXX/twoja-nazwa-bd"; domyślny adres lokalny dla serwera mongoDB w systemie Windows to "mongodb://localhost:27017/twoja-nazwa-bd" - jeśli wybrałaś/-eś opcję pobierania bazy danych; zamień "twoja-nazwa-bd" na nazwę bazy danych, którą wcześniej wybrałeś/-aś).
 	- klucz sesji hosta (string losowych znaków).
 5. Zmień nazwę pliku ".env.example" na ".env".
 6. Żeby uruchomić projekt wpisz w CLI "npm run start".
