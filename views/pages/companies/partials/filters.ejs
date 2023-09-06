@@ -1,7 +1,7 @@
 <div class="mb-3">
-    <label for="sort" class="form-label" >Sortuj wg</label>
+    <label for="sort" class="form-label" >Sort by</label>
     <select name="sort" id="sort" class="form-control">
-        <option value="">Domyślnie</option>
+        <option value="">Default</option>
         <option value="name|asc" <%- query.sort === 'name|asc' ? 'selected' : '' %>>
             A-Z
         </option>
@@ -9,23 +9,23 @@
             Z-A
         </option>
         <option value="employeesCount|asc" <%- query.sort === 'employeesCount|asc' ? 'selected' : '' %>>
-            Pracowników (rosnąco)
+            Employees (asceding)
         </option>
         <option value="employeesCount|desc" <%- query.sort === 'employeesCount|desc' ? 'selected' : '' %>>
-            Pracowników (malejąco)
+            Employees (descending)
         </option>
     </select>
 </div>
 
 
 <div class="mb-3">
-    <label for="countmin" class="form-label">Liczba pracowników (min)</label>
+    <label for="countmin" class="form-label">Employees number (min)</label>
     <input type="number" value="<%- query.countmin %>" class="form-control" id="countmin" name="countmin">
 </div>
 
 <div class="mb-3">
-    <label for="countmax" class="form-label">Liczba pracowników (min)</label>
+    <label for="countmax" class="form-label">Employees number (max)</label>
     <input type="number" value="<%- query.countmax %>" class="form-control" id="countmax" name="countmax">
 </div>
 
-<button class="btn btn-primary mt-3">Zastosuj</button>
+<button class="btn btn-primary mt-3">Apply</button>

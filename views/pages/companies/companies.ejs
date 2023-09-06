@@ -1,11 +1,11 @@
-<h1>Lista firm:</h1>
+<h1>Companies list:</h1>
 
 <form>
 
     <% if (user) { %>
-        <a href="/admin/firmy/dodaj" class="btn btn-success">Dodaj nową firmę</a>
+        <a href="/admin/firmy/dodaj" class="btn btn-success">Add new company</a>
     <% } %>
-    <a href="/csv" class="btn-info">Pobierz CSV</a>
+    <a href="/csv" class="btn-info">Download CSV</a>
 
     <%- include('partials/search') %>
 
@@ -24,15 +24,15 @@
                             </div>
                             <div class="col-9">
                                 <p class="h3 mb-4"><%= company.name %></p>
-                                <p>Pracowników: <%= company.employeesCount %></p>
-                                <p>Kontakt: <%= company.user?.email %></p>
+                                <p>Employees: <%= company.employeesCount %></p>
+                                <p>Contact: <%= company.user?.email %></p>
                                 <p>CEO: <%= company.user?.fullName %></p>
-                                <a href="/firmy/<%= company.slug %>" class="btn btn-primary">Zobacz</a>
+                                <a href="/firmy/<%= company.slug %>" class="btn btn-primary">See details</a>
                                 <% if (user){ %>
-                                    <a href="/admin/firmy/<%= company.slug %>/edytuj" class="btn btn-warning">Edytuj</a>
+                                    <a href="/admin/firmy/<%= company.slug %>/edytuj" class="btn btn-warning">Edit</a>
                                     <a href="/admin/firmy/<%= company.slug %>/usun" 
                                         onClick="return confirm('Czy jesteś pewny?')" 
-                                        class="btn btn-danger">Usuń</a>
+                                        class="btn btn-danger">Delete</a>
                                 <% } %>
                             </div>
                         </div>

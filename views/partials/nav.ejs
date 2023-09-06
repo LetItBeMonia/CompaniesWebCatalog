@@ -9,24 +9,24 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link <%- url === '/' ? 'active' : '' %>" href="/">Strona główna</a>
+            <a class="nav-link <%- url === '/' ? 'active' : '' %>" href="/">Homepage</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link <%- url.includes('/firmy') ? 'active' : '' %>" href="/firmy">Firmy</a>
+            <a class="nav-link <%- url.includes('/firmy') ? 'active' : '' %>" href="/firmy">Companies</a>
           </li>
           <% if (!user){ %>
             <li class="nav-item">
-              <a class="nav-link <%- url.includes('/zarejestruj') ? 'active' : '' %>" href="/zarejestruj">Rejestracja</a>
+              <a class="nav-link <%- url.includes('/zarejestruj') ? 'active' : '' %>" href="/zarejestruj">Sign up</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link <%- url.includes('/zaloguj') ? 'active' : '' %>" href="/zaloguj">Logowanie</a>
+              <a class="nav-link <%- url.includes('/zaloguj') ? 'active' : '' %>" href="/zaloguj">Log in</a>
             </li>
           <% } else { %>
             <li class="nav-item">
-              <a href="/admin/profil" class="nav-link <%- url.includes('/admin/profil') ? 'active' : '' %>">Profil</a>
+              <a href="/admin/profil" class="nav-link <%- url.includes('/admin/profil') ? 'active' : '' %>">Profile</a>
             </li>
             <li class="nav-item">
-              <a href="/wyloguj" class="nav-link">Wyloguj</a>
+              <a href="/wyloguj" class="nav-link">Log out</a>
             </li>
           <% } %>
         </ul>

@@ -1,7 +1,7 @@
 <form method="POST" <% if (showFile) { %> enctype="multipart/form-data" <% } %>>
     
         <div class="mb-3">
-            <label for="" class="form-label">Nazwa firmy</label>
+            <label for="" class="form-label">Company's name</label>
             <input type="text" name="name" 
                 value="<%= form.name %>"
                 class="form-control <%- errors?.name ? 'is-invalid' : '' %>" required>
@@ -16,12 +16,12 @@
                 <div class="row">
                     <div class="col">
                         <img src="/uploads/<%- form.image %>" class="img-fluid"  alt="">
-                        <a href="/admin/firmy/<%- form.slug %>/usun-zdjecie" class="btn btn-sm btn-danger">Usuń</a>
+                        <a href="/admin/firmy/<%- form.slug %>/usun-zdjecie" class="btn btn-sm btn-danger">Delete</a>
                     </div>
                 </div>
             <% } %>
         <div class="mb-3">
-            <label for="image" class="form-label">Zdjęcie</label>
+            <label for="image" class="form-label">Image</label>
             <input type="file" name="image" class="form-control" id="image">
         </div>
         <% } %>
@@ -31,14 +31,14 @@
             <input type="text" name="slug" 
                 value="<%= form.slug %>"
                 class="form-control <%- errors?.slug ? 'is-invalid' : '' %>" required>
-            <div class="form-text">Przynajmniej 3 znaki</div>
+            <div class="form-text">At least 3 characters</div>
             <% if (errors?.slug) { %>
                 <div class="invalid-feedback"><%= errors.slug.message %></div>
             <% } %>
         </div>
     
         <div class="mb-3">
-            <label for="" class="form-label">Liczba pracowników</label>
+            <label for="" class="form-label">Employees number</label>
             <input type="text" name="employeesCount" 
                 value="<%= form.employeesCount %>"
                 class="form-control" required>
@@ -51,6 +51,6 @@
     <% if (errors) { %>
         <% console.log(errors) %>
         <div class="alert alert-danger mt-3">
-            Popraw dane w formularzu
+            Correct form's data
         </div>
     <% } %>

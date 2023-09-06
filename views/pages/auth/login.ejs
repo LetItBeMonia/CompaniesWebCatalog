@@ -1,4 +1,4 @@
-<h1>Logowanie</h1>
+<h1>Log in</h1>
 
 <form method="POST">
 
@@ -13,7 +13,7 @@
     </div>
   
     <div class="mb-3">
-      <label for="password" class="form-label">Hasło</label>
+      <label for="password" class="form-label">Password</label>
       <input type="password" 
         class="form-control" 
         name="password"
@@ -22,8 +22,8 @@
     </div>
 
     <% if (errors) { %>
-        <div class="alert alert-danger">Błędny email lub hasło</div>
+        <div class="alert alert-danger">Invalid email or password</div>
     <% } %>
 
-    <button class="btn btn-primary">Zaloguj!</button>
+    <button class="btn btn-primary">Log in!</button>
   </form>
