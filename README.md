@@ -8,9 +8,8 @@ This project was made during the Node.js course. It was created using technologi
 - MVC framework
 - user login and registration
 - session
-- serach mechanism, sorting, filtering
-- pagination
-- downloading and transfering files by user
+- serach mechanism, sorting, filtering, pagination
+- downloading and transfering files
 - middleware and rooting
 - database (mongoDB + mongoose)
 - REST API
@@ -45,9 +44,8 @@ Projekt został stworzony w ramach kursu i nauki Node.js. Napisany przy użyciu 
 - wzorzec MVC
 - rejestracja i logowanie użytkowników
 - sesja
-- wyszukiwarka, sortowanie i filtrowanie wyników
-- paginacja
-- ściąganie i przekazywanie plików przez użytkownika
+- wyszukiwarka, sortowanie i filtrowanie wyników, paginacja
+- ściąganie i przekazywanie plików
 - middleware i rooting
 - baza danych (mongoDB + mongoose)
 - REST API
