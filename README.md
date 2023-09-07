@@ -26,7 +26,7 @@ To launch the application you must have Node.js and npm downloaded on your compu
 	- database server adress (example structue of the adress: "mongodb://localhost:XXXXX/your-database-name"; "mongodb://localhost:27017/your-database-name" is local mongoDB database adress by default on Windows if you chose the download option; replace "your-database-name" with database name that you chose previously)
 	- session key (it can be a string of random characters)
 5. Change the file's name from ".env.example" to ".env".
-6.  * Add "uploads" directory in directory named "public" to be able to transfer images in the app (*this step is not required).
+6. Add "uploads" directory in directory named "public" to be able to transfer images in the app (this step is not required).
 7. To launch the app enter "npm run start" into your CLI.
 8. View the launched app in a browser at a "localhost:PORT" adress (change "PORT" to the port number you have picked earlier).
 
@@ -63,6 +63,6 @@ Aby uruchomić projekt musisz mieć pobranego na komputer Node.js i npm. Jako ba
 	- adres serwera bazy danych (przykładowa struktura adresu: "mongodb://localhost:XXXXX/twoja-nazwa-bd"; domyślny adres lokalny dla serwera mongoDB w systemie Windows to "mongodb://localhost:27017/twoja-nazwa-bd" - jeśli wybrałaś/-eś opcję pobierania bazy danych; zamień "twoja-nazwa-bd" na nazwę bazy danych, którą wcześniej wybrałeś/-aś).
 	- klucz sesji hosta (string losowych znaków).
 5. Zmień nazwę pliku ".env.example" na ".env".
-6.  *Dodaj folder o nazwie "uploads" do folderu "public", aby móc wgrywać zdjęcia w aplikacji (*ten krok nie jest wymagany).
+6. Dodaj folder o nazwie "uploads" do folderu "public", aby móc wgrywać zdjęcia w aplikacji (ten krok nie jest wymagany).
 7. Żeby uruchomić projekt wpisz w CLI "npm run start".
 8. Przeglądaj projekt w przeglądarce pod adresem "localhost:PORT" (PORT zastąp wybranym wcześniej numerem portu).
