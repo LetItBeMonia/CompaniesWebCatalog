@@ -16,7 +16,10 @@ This project was made during the Node.js course. It was created using technologi
 - view engine (ejs)
 - dynamic layouts (ejsLayouts)
 
-## How to view the application? | Application Launching
+## How to view the application? 
+You can download the project and run it on your PC (Application Launching section below) or look at the Project Overview at the boottom of this file!
+
+## Application Launching
 To launch the application you must have Node.js and npm downloaded on your computer. As for database you can either choose on-line mongoDB database or local mongoDB (in this case you also need to download it). Next:
 1. Download this repository to your local drive.
 2. Download all node modules used in the project with the CLI "npm install" command from within a directory that you have put project files in.
@@ -52,8 +55,10 @@ Projekt został stworzony w ramach kursu i nauki Node.js. Napisany przy użyciu 
 - view engine (ejs)
 - dynamiczne szablony (ejsLayouts)
 
+## Jak zobaczyć aplikację?
+Możesz pobrać cały projekt i uruchomić go na swoim komputerze (sekcja "Uruchamianie aplikacji" poniżej) lub spojrzeć na "Przegląd projektu" na samym dole tego dokumentu!
 
-## Jak zobaczyć aplikację? | Uruchamianie aplikacji
+## Uruchamianie aplikacji
 Aby uruchomić projekt musisz mieć pobranego na komputer Node.js i npm. Jako bazy danych możesz użyć jednej z dwóch opcji: pobrać mongoDB na swój komputer lub utworzyć bazę danych, zakładając konto na stronie mongoDB. Następnie:
 1. Pobierz repozytorium na lokalny dysk.
 2. Ściągnij wykorzystane w projekcie moduły (node_modules) za pomocą komendy CLI "npm install" z poziomu katalogu, w którym znajduje się projekt.
@@ -66,3 +71,7 @@ Aby uruchomić projekt musisz mieć pobranego na komputer Node.js i npm. Jako ba
 6. Dodaj folder o nazwie "uploads" do folderu "public", aby móc wgrywać zdjęcia w aplikacji (ten krok nie jest wymagany).
 7. Żeby uruchomić projekt wpisz w CLI "npm run start".
 8. Przeglądaj projekt w przeglądarce pod adresem "localhost:PORT" (PORT zastąp wybranym wcześniej numerem portu).
+
+
+---------------------------------------------------------------------------------------------------
+
