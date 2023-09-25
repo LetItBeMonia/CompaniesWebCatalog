@@ -17,7 +17,7 @@ This project was made during the Node.js course. It was created using technologi
 - dynamic layouts (ejsLayouts)
 
 ## How to view the application? 
-You can download the project and run it on your PC (Application Launching section below) or look at the "Application Overview" at the boottom of this file!
+You can download the project and run it on your PC (Application Launching section below) or look at the "Application Overview" at the boottom of this page!
 
 ## Application Launching
 To launch the application you must have Node.js and npm downloaded on your computer. As for database you can either choose on-line mongoDB database or local mongoDB (in this case you also need to download it). Next:
@@ -56,7 +56,7 @@ Projekt został stworzony w ramach kursu i nauki Node.js. Napisany przy użyciu 
 - dynamiczne szablony (ejsLayouts)
 
 ## Jak zobaczyć aplikację?
-Możesz pobrać cały projekt i uruchomić go na swoim komputerze (sekcja "Uruchamianie aplikacji" poniżej) lub spojrzeć na "Przegląd aplikacji" na samym dole tego dokumentu!
+Możesz pobrać cały projekt i uruchomić go na swoim komputerze (sekcja "Uruchamianie aplikacji" poniżej) lub spojrzeć na "Przegląd aplikacji" na samym dole tej strony!
 
 ## Uruchamianie aplikacji
 Aby uruchomić projekt musisz mieć pobranego na komputer Node.js i npm. Jako bazy danych możesz użyć jednej z dwóch opcji: pobrać mongoDB na swój komputer lub utworzyć bazę danych, zakładając konto na stronie mongoDB. Następnie:
@@ -76,5 +76,7 @@ Aby uruchomić projekt musisz mieć pobranego na komputer Node.js i npm. Jako ba
 ---------------------------------------------------------------------------------------------------
 
 # Application Overview | Przegląd aplikacji
+
+## #1 Homepage
 ![1_homepage](https://github.com/LetItBeMonia/CompaniesWebCatalog/assets/89008855/edd0f640-dba0-4c51-b89b-5127b8142be8)
 
