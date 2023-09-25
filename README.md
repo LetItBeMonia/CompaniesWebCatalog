@@ -78,7 +78,7 @@ Aby uruchomić projekt musisz mieć pobranego na komputer Node.js i npm. Jako ba
 # Application Overview | Przegląd aplikacji
 
 ## #1 Homepage
-This is how homepage looks.
+This is how homepage looks like.
 ![1_homepage](https://github.com/LetItBeMonia/CompaniesWebCatalog/assets/89008855/edd0f640-dba0-4c51-b89b-5127b8142be8)
 
 ## #2 Registration Form
