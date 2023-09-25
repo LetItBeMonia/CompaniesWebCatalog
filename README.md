@@ -93,5 +93,5 @@ Search results for "mycompany" string.
 ![5_search_results](https://github.com/LetItBeMonia/CompaniesWebCatalog/assets/89008855/a4f7b4e6-4a7c-41f7-a726-b25ab3f12883)
 
 ## #5 Edit forms
-You can also edit details of the companies you added to the catalog.
+You can also edit details of the companies you added to the catalog. Other edit form on the site includes profile details edit form.
 ![6_comapnys_edit](https://github.com/LetItBeMonia/CompaniesWebCatalog/assets/89008855/f563ab3f-dda2-4f76-8ff8-4442c9137b62)
