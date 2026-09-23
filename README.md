@@ -1,4 +1,4 @@
-EN
+[EN]
 # Application: Companies Web Catalog
 
 ## Technologies used:
@@ -16,8 +16,6 @@ EN
 - REST API
 - view engine (ejs)
 - dynamic layouts (ejsLayouts)
-
----------------------------------------------------------------------------------------------------
 
 # Application Overview | Przegląd aplikacji
 
@@ -42,6 +40,7 @@ You can also edit details of the companies you added to the catalog. Other edit 
 ![6_comapnys_edit](https://github.com/LetItBeMonia/CompaniesWebCatalog/assets/89008855/f563ab3f-dda2-4f76-8ff8-4442c9137b62)
 
 
+
 ## Application Launching
 To launch the application you must have Node.js and npm downloaded on your computer. As for database you can either choose on-line mongoDB database or local mongoDB (in this case you also need to download it). Next:
 1. Download this repository to your local drive.
@@ -59,7 +58,7 @@ To launch the application you must have Node.js and npm downloaded on your compu
 
 ---------------------------------------------------------------------------------------------------
 
-PL
+[PL]
 
 # Projekt: Katalog firm
 Projekt został stworzony w ramach kursu i nauki Node.js. Napisany przy użyciu technologii, takich jak:
