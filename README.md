@@ -1,21 +1,32 @@
 [EN]
-# Application: Companies Web Catalog
+# Companies Web Catalog
 
-## Technologies used:
-- HTML, CSS, JavaScript
-- Node.js (Express.js)+ MongoDB
+## Tech-stack used to create the app:
+HTML | CSS | Bootstrap | JavaScript | Node.js (Express.js) | MongoDB
 
-## Used Concepts (and technologies)
+## Functionalities:
+- User registration and login
+- Adding, editing and deleting companies to a catalog as a logged in user
+- Adding company's image/logo
+- Searching companies by name
+- Sorting searching results by name (A-Z, Z-A, employees nr ascending, employees nr descending)
+- Filtering searching results by min and max employees number
+- Pagination of searching results
+- Browsing catalog of companies as a not logged in user
+- Downloading CSV file with a list of searched companies
+- Session management
+
+## Technologies and concepts used:
 - MVC framework
-- user login and registration
-- session
-- serach mechanism, sorting, filtering, pagination
-- downloading and transfering files
-- middleware and rooting
-- database (mongoDB + mongoose)
-- REST API
+- model schemas (mongoose library)
 - view engine (ejs)
 - dynamic layouts (ejsLayouts)
+- cloud and local database (mongoDB + mongo Atlas)
+- REST
+- routing
+- session management
+- middleware usage
+- responsiveness
 
 # Application Overview | Przegląd aplikacji
 
