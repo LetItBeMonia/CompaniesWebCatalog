@@ -2,7 +2,7 @@
 # Companies Web Catalog
 
 ## Tech-stack used to create the app:
-HTML | CSS | Bootstrap | JavaScript | Node.js (Express.js) | MongoDB
+HTML  |  CSS  |  Bootstrap  |  JavaScript  |  Node.js (Express.js)  |  MongoDB
 
 ## Functionalities:
 - User registration and login
