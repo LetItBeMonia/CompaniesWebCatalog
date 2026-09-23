@@ -32,8 +32,11 @@ HTML  |  CSS  |  Bootstrap  |  JavaScript  |  Node.js  |  MongoDB
 
 # Application Overview | Przegląd aplikacji
 
-## #1 Homepage for not-logged in user
+## #1.1 Homepage for not-logged in user
 ![1_homepage](https://github.com/LetItBeMonia/CompaniesWebCatalog/assets/89008855/edd0f640-dba0-4c51-b89b-5127b8142be8)
+
+## #1.2 Homepage for logged-in user
+<img width="1917" height="523" alt="logged-in-user-homepage" src="https://github.com/user-attachments/assets/1cb9b506-ecca-42e0-bdc8-77227ce8a150" />
 
 ## #2 Registration Form
 Here is the registration form. Other forms on the site include login form and company insert form for logged in users.
