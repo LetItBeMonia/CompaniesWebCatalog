@@ -16,8 +16,30 @@ This project was made during the Node.js course. It was created using technologi
 - view engine (ejs)
 - dynamic layouts (ejsLayouts)
 
-## How to view the application? 
-You can download the project and run it on your PC (Application Launching section below) or look at the "Application Overview" at the boottom of the page!
+---------------------------------------------------------------------------------------------------
+
+# Application Overview | Przegląd aplikacji
+
+## #1 Homepage
+This is how homepage looks like.
+![1_homepage](https://github.com/LetItBeMonia/CompaniesWebCatalog/assets/89008855/edd0f640-dba0-4c51-b89b-5127b8142be8)
+
+## #2 Registration Form
+Here is the registration form. Other forms on the site include login form and company insert form for logged in users.
+![2_registration](https://github.com/LetItBeMonia/CompaniesWebCatalog/assets/89008855/c8b7afe5-b4af-47e9-8669-22c12c250311)
+
+## #3 Companies Catalog
+Catalog displays list of companies added by registered users. You can sort or filter the list. At the bottom left corner there is navigation bar of pagination. You can also download a CSV file with the entire companies list!
+![3_companies_list](https://github.com/LetItBeMonia/CompaniesWebCatalog/assets/89008855/f91b9735-04d4-4a69-a296-cf3970053fb2)
+
+## #4 Displaying search results
+Search results for "mycompany" string.
+![5_search_results](https://github.com/LetItBeMonia/CompaniesWebCatalog/assets/89008855/a4f7b4e6-4a7c-41f7-a726-b25ab3f12883)
+
+## #5 Edit forms
+You can also edit details of the companies you added to the catalog. Other edit form on the site includes profile details edit form.
+![6_comapnys_edit](https://github.com/LetItBeMonia/CompaniesWebCatalog/assets/89008855/f563ab3f-dda2-4f76-8ff8-4442c9137b62)
+
 
 ## Application Launching
 To launch the application you must have Node.js and npm downloaded on your computer. As for database you can either choose on-line mongoDB database or local mongoDB (in this case you also need to download it). Next:
@@ -71,28 +93,3 @@ Aby uruchomić projekt musisz mieć pobranego na komputer Node.js i npm. Jako ba
 6. Dodaj folder o nazwie "uploads" do folderu "public", aby móc wgrywać zdjęcia w aplikacji (ten krok nie jest wymagany).
 7. Żeby uruchomić projekt wpisz w CLI "npm run start".
 8. Przeglądaj projekt w przeglądarce pod adresem "localhost:PORT" (PORT zastąp wybranym wcześniej numerem portu).
-
-
----------------------------------------------------------------------------------------------------
-
-# Application Overview | Przegląd aplikacji
-
-## #1 Homepage
-This is how homepage looks like.
-![1_homepage](https://github.com/LetItBeMonia/CompaniesWebCatalog/assets/89008855/edd0f640-dba0-4c51-b89b-5127b8142be8)
-
-## #2 Registration Form
-Here is the registration form. Other forms on the site include login form and company insert form for logged in users.
-![2_registration](https://github.com/LetItBeMonia/CompaniesWebCatalog/assets/89008855/c8b7afe5-b4af-47e9-8669-22c12c250311)
-
-## #3 Companies Catalog
-Catalog displays list of companies added by registered users. You can sort or filter the list. At the bottom left corner there is navigation bar of pagination. You can also download a CSV file with the entire companies list!
-![3_companies_list](https://github.com/LetItBeMonia/CompaniesWebCatalog/assets/89008855/f91b9735-04d4-4a69-a296-cf3970053fb2)
-
-## #4 Displaying search results
-Search results for "mycompany" string.
-![5_search_results](https://github.com/LetItBeMonia/CompaniesWebCatalog/assets/89008855/a4f7b4e6-4a7c-41f7-a726-b25ab3f12883)
-
-## #5 Edit forms
-You can also edit details of the companies you added to the catalog. Other edit form on the site includes profile details edit form.
-![6_comapnys_edit](https://github.com/LetItBeMonia/CompaniesWebCatalog/assets/89008855/f563ab3f-dda2-4f76-8ff8-4442c9137b62)
