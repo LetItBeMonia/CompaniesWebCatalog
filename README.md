@@ -1,6 +1,7 @@
 EN
 # Application: Companies Web Catalog
-This project was made during the Node.js course. It was created using technologies like:
+
+## Technologies used:
 - HTML, CSS, JavaScript
 - Node.js (Express.js)+ MongoDB
 
