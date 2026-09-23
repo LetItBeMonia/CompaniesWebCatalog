@@ -14,20 +14,21 @@ HTML  |  CSS  |  Bootstrap  |  JavaScript  |  Node.js  |  MongoDB
 - Pagination of searching results
 - Browsing catalog of companies as a not logged in user
 - Downloading CSV file with a list of searched companies
-- Session management
 
 ## Technologies and concepts used:
 - MVC framework
 - model schemas (mongoose library)
 - view engine (ejs)
 - dynamic layouts (ejsLayouts)
-- cloud and local database (mongoDB + mongo Atlas)
-- backend server (Express.js)
+- local and cloud database (mongoDB + mongo Atlas)
+- backend server (express.js)
 - REST
 - routing
 - session management
 - middleware usage
 - responsiveness
+
+---------------------------------------------------------------------------------------------------
 
 # Application Overview | Przegląd aplikacji
 
@@ -51,9 +52,9 @@ Search results for "mycompany" string.
 You can also edit details of the companies you added to the catalog. Other edit form on the site includes profile details edit form.
 ![6_comapnys_edit](https://github.com/LetItBeMonia/CompaniesWebCatalog/assets/89008855/f563ab3f-dda2-4f76-8ff8-4442c9137b62)
 
+---------------------------------------------------------------------------------------------------
 
-
-## Application Launching
+## Want to launch application on your own computer? Use the guide below.
 To launch the application you must have Node.js and npm downloaded on your computer. As for database you can either choose on-line mongoDB database or local mongoDB (in this case you also need to download it). Next:
 1. Download this repository to your local drive.
 2. Download all node modules used in the project with the CLI "npm install" command from within a directory that you have put project files in.
@@ -73,26 +74,36 @@ To launch the application you must have Node.js and npm downloaded on your compu
 [PL]
 
 # Projekt: Katalog firm
-Projekt został stworzony w ramach kursu i nauki Node.js. Napisany przy użyciu technologii, takich jak:
-- HTML, CSS, JavaScript
-- Node.js (Express.js)+ MongoDB
 
-## Wykorzystane koncepty (i technologie)
-- wzorzec MVC
-- rejestracja i logowanie użytkowników
-- sesja
-- wyszukiwarka, sortowanie i filtrowanie wyników, paginacja
-- ściąganie i przekazywanie plików
-- middleware i rooting
-- baza danych (mongoDB + mongoose)
-- REST API
-- view engine (ejs)
-- dynamiczne szablony (ejsLayouts)
+## Stack technologiczny:
+HTML  |  CSS  |  Bootstrap  |  JavaScript  |  Node.js  |  MongoDB
 
-## Jak zobaczyć aplikację?
-Możesz pobrać cały projekt i uruchomić go na swoim komputerze (sekcja "Uruchamianie aplikacji" poniżej) lub spojrzeć na "Przegląd aplikacji" na samym dole strony!
+## Funkcjonalności:
+- Rejestracja i logowanie użytkownika
+- Dodawanie, edytowanie i usuwanie firm z katalogu przez zalogowanego użytkownika
+- Dodawanie zdjęcia/logo firmy
+- Wyszukiwanie firm po nazwie
+- Sortowanie wyników wyszukiwania według nazwy (A-Z, Z-A) oraz wg liczby pracowników rosnąco i malejąco
+- Filtrowanie wyników wyszukiwania według minimalnej i maksymalnej liczby pracowników
+- Paginacja wyników wyszukiwania
+- Możliwość przeglądania katalogu firm przez niezalogowanego użytkownika
+- Pobieranie pliku CSV z listą wyszukiwanych firm
 
-## Uruchamianie aplikacji
+## Wykorzystane technologie i koncepcje:
+- Architektura MVC
+- Schematy modeli (biblioteka Mongoose)
+- Silnik widoków (EJS)
+- Dynamiczne layouty (ejsLayouts)
+- Baza danych lokalna i w chmurze (MongoDB + Mongo Atlas)
+- Serwer backendowy (Express.js)
+- REST
+- Routing
+- Zarządzanie sesją
+- Wykorzystanie middleware
+- Responsywność
+
+
+## Chcesz uruchomić aplikację na swoim komputerze? Skorzystaj z poniższej instrukcji.
 Aby uruchomić projekt musisz mieć pobranego na komputer Node.js i npm. Jako bazy danych możesz użyć jednej z dwóch opcji: pobrać mongoDB na swój komputer lub utworzyć bazę danych, zakładając konto na stronie mongoDB. Następnie:
 1. Pobierz repozytorium na lokalny dysk.
 2. Ściągnij wykorzystane w projekcie moduły (node_modules) za pomocą komendy CLI "npm install" z poziomu katalogu, w którym znajduje się projekt.
