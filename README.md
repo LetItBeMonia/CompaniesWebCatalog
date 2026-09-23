@@ -42,13 +42,49 @@ HTML  |  CSS  |  Bootstrap  |  JavaScript  |  Node.js  |  MongoDB
 Here is the registration form. Other forms on the site include login form and company insert form for logged in users.
 ![2_registration](https://github.com/LetItBeMonia/CompaniesWebCatalog/assets/89008855/c8b7afe5-b4af-47e9-8669-22c12c250311)
 
+## #4 Editing user profile details
+<img width="1917" height="790" alt="editing-profile-details" src="https://github.com/user-attachments/assets/395e3cb9-2a05-4abe-a866-24e89f586e7c" />
+
+## #4.1 Adding new company
+<img width="1917" height="711" alt="adding-dogs-company" src="https://github.com/user-attachments/assets/69995887-a07a-4528-9638-a142c8892afe" />
+
+<img width="1917" height="711" alt="adding-dogs-company" src="https://github.com/user-attachments/assets/65f7995b-16bb-44dc-aa98-4f437e512b35" />
+
+
+## #4.2 Added new company
+<img width="1917" height="908" alt="added-dogs-company" src="https://github.com/user-attachments/assets/9cb4939b-e4bc-471f-8c85-ebef492cf6e0" />
+
+## #5 Editing company's details
+<img width="1917" height="867" alt="editing-comapny-details-adding-image" src="https://github.com/user-attachments/assets/98ad4886-ba0b-40b5-b649-c94d1b3c5064" />
+
 ## #3 Companies Catalog
 Catalog displays list of companies added by registered users. You can sort or filter the list. At the bottom left corner there is navigation bar of pagination. You can also download a CSV file with the entire companies list!
 ![3_companies_list](https://github.com/LetItBeMonia/CompaniesWebCatalog/assets/89008855/f91b9735-04d4-4a69-a296-cf3970053fb2)
 
+## #3.1 Companies list for not-logged in user
+<img width="1916" height="906" alt="not-logged-in-user-catalog-view" src="https://github.com/user-attachments/assets/6f1b06ff-3ffc-4fae-835b-a440e351ead7" />
+
+## #3.2 Companies list for logged in user
+<img width="1917" height="910" alt="companies-list" src="https://github.com/user-attachments/assets/600d6d65-c5ef-4ec6-a12c-3012a78cf5ea" />
+
 ## #4 Displaying search results
 Search results for "mycompany" string.
 ![5_search_results](https://github.com/LetItBeMonia/CompaniesWebCatalog/assets/89008855/a4f7b4e6-4a7c-41f7-a726-b25ab3f12883)
+
+## Sorting search results
+<img width="1917" height="905" alt="sortowanie-od-z-do-a" src="https://github.com/user-attachments/assets/a5585582-43dd-4d90-b7a4-8d339084b320" />
+
+## Sorting & filtering search results
+<img width="1917" height="907" alt="sortowanie-i-filtrowanie" src="https://github.com/user-attachments/assets/e90a6c97-6abc-4cbc-b366-0b292e2c309a" />
+
+## 1 Pagination
+<img width="1917" height="906" alt="paginacja" src="https://github.com/user-attachments/assets/5479d6d9-c192-46fc-b626-852718cd4f69" />
+
+## 2 Pagination
+<img width="1917" height="795" alt="paginacja-2" src="https://github.com/user-attachments/assets/be405322-2fec-4c05-86d5-b7e78abd0ee8" />
+
+## Downloading CSV file of companies list
+<img width="1913" height="792" alt="pobieranie_csv" src="https://github.com/user-attachments/assets/0a884449-3ca1-4c34-9f91-f15061a34080" />
 
 ## #5 Edit forms
 You can also edit details of the companies you added to the catalog. Other edit form on the site includes profile details edit form.
