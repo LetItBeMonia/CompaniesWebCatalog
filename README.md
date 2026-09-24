@@ -39,7 +39,6 @@ HTML  |  CSS  |  Bootstrap  |  JavaScript  |  Node.js  |  MongoDB
 <img width="1917" height="523" alt="logged-in-user-homepage" src="https://github.com/user-attachments/assets/1cb9b506-ecca-42e0-bdc8-77227ce8a150" />
 
 ## #2 Registration Form
-Here is the registration form. Other forms on the site include login form and company creating form for logged in users.
 ![2_registration](https://github.com/LetItBeMonia/CompaniesWebCatalog/assets/89008855/c8b7afe5-b4af-47e9-8669-22c12c250311)
 
 ## #3 Editing user profile details
