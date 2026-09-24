@@ -74,8 +74,8 @@ Search results for "mycompany" string.
 ## Sorting search results
 <img width="1917" height="905" alt="sortowanie-od-z-do-a" src="https://github.com/user-attachments/assets/a5585582-43dd-4d90-b7a4-8d339084b320" />
 
-## Sorting & filtering search results
-<img width="1917" height="907" alt="sortowanie-i-filtrowanie" src="https://github.com/user-attachments/assets/e90a6c97-6abc-4cbc-b366-0b292e2c309a" />
+## Sorting, filtering & pagination of search results
+<img width="1917" height="906" alt="filtrowanie-paginacja" src="https://github.com/user-attachments/assets/fb81844a-939b-4252-bdec-091d4f8f72dd" />
 
 ## 1 Pagination
 <img width="1917" height="906" alt="paginacja" src="https://github.com/user-attachments/assets/5479d6d9-c192-46fc-b626-852718cd4f69" />
