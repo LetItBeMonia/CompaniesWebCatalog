@@ -58,10 +58,10 @@ You can edit details of the companies you added to the catalog and add a logo of
 Catalog displays list of companies added by registered users (for example CEOs or other authorised employees). You can sort or filter the list. At the bottom left corner there is navigation bar of pagination.
 ![3_companies_list](https://github.com/LetItBeMonia/CompaniesWebCatalog/assets/89008855/f91b9735-04d4-4a69-a296-cf3970053fb2)
 
-## #6.2 Companies catalog for not-logged in user
+## #6.2 Companies catalog view for not-logged in user
 <img width="1916" height="906" alt="not-logged-in-user-catalog-view" src="https://github.com/user-attachments/assets/6f1b06ff-3ffc-4fae-835b-a440e351ead7" />
 
-## #6.3 Companies catalog for logged in user
+## #6.3 Companies catalog view for logged in user
 <img width="1917" height="910" alt="companies-list" src="https://github.com/user-attachments/assets/600d6d65-c5ef-4ec6-a12c-3012a78cf5ea" />
 
 ## #7 Displaying search results
