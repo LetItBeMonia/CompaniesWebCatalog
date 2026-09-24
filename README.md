@@ -1,7 +1,7 @@
 [EN]
 # Companies Web Catalog
 
-## Tech-stack used to create the app:
+## Tech-stack used:
 HTML  |  CSS  |  Bootstrap  |  JavaScript  |  Node.js  |  MongoDB
 
 ## Functionalities:
