@@ -4,7 +4,7 @@
 ## ⌨️ Technologies:
 `HTML` `CSS` `Bootstrap` `JavaScript` `Node.js` `MongoDB`
 
-## 🚀 Functionalities:
+## 🚀 Features:
 - User registration and login
 - Adding, editing and deleting companies to a catalog as a logged in user
 - Adding company's image/logo
