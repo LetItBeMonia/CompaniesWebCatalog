@@ -1,5 +1,6 @@
 [EN]
 # </> Companies Web Catalog
+A web catalog of companies. Full-Stack web application made with JavaScript and Node.js.
 
 ## ⌨️ Technologies:
 `HTML` `CSS` `Bootstrap` `JavaScript` `Node.js` `MongoDB`
