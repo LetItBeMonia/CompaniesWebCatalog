@@ -1,10 +1,10 @@
 [EN]
 # Companies Web Catalog
 
-## Tech-stack used:
+## ⌨️ Tech-stack used:
 HTML  |  CSS  |  Bootstrap  |  JavaScript  |  Node.js  |  MongoDB
 
-## Functionalities:
+## 🚀 Functionalities:
 - User registration and login
 - Adding, editing and deleting companies to a catalog as a logged in user
 - Adding company's image/logo
@@ -15,7 +15,7 @@ HTML  |  CSS  |  Bootstrap  |  JavaScript  |  Node.js  |  MongoDB
 - Browsing catalog of companies as a not logged in user
 - Downloading CSV file with a list of searched companies
 
-## Technologies and concepts used:
+## 📖 Technologies and concepts used:
 - MVC framework
 - model schemas (mongoose library)
 - view engine (ejs)
@@ -30,7 +30,7 @@ HTML  |  CSS  |  Bootstrap  |  JavaScript  |  Node.js  |  MongoDB
 
 ---------------------------------------------------------------------------------------------------
 
-# Application Overview | Przegląd aplikacji
+# 🔍 Application Overview | Przegląd aplikacji
 
 ## #1.1 Homepage for not-logged in user
 ![1_homepage](https://github.com/LetItBeMonia/CompaniesWebCatalog/assets/89008855/edd0f640-dba0-4c51-b89b-5127b8142be8)
