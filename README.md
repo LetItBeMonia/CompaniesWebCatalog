@@ -15,7 +15,7 @@
 - Browsing catalog of companies as a not logged in user
 - Downloading CSV file with a list of searched companies
 
-## 📖 Technologies and concepts used:
+## 📖 Implemented concepts:
 - MVC framework
 - model schemas (mongoose library)
 - view engine (ejs)
