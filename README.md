@@ -1,8 +1,8 @@
 [EN]
-# Companies Web Catalog
+# </> Companies Web Catalog
 
-## ⌨️ Tech-stack used:
-HTML  |  CSS  |  Bootstrap  |  JavaScript  |  Node.js  |  MongoDB
+## ⌨️ Technologies:
+`HTML` `CSS` `Bootstrap` `JavaScript` `Node.js` `MongoDB`
 
 ## 🚀 Functionalities:
 - User registration and login
