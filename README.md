@@ -30,9 +30,10 @@ A web catalog of companies. Full-Stack web application made with JavaScript and 
 - responsiveness
 
 ## 🚦 Running the Project
-To launch the application you must have Node.js and npm downloaded on your computer. As for database you can either choose on-line mongoDB database or local mongoDB (in this case you also need to download it if you don't have it). Next:
-1. Download this repository to your local drive.
-2. Download all node modules used in the project with the CLI `npm install` command from within a directory that you have put project files in.
+Requirements: Node.js. As for database you can either choose on-line mongoDB database (mongo Atlas) or local mongoDB.
+### Instructions
+1. Clone the repository.
+2. Download dependencies with `npm install` command.
 3. Create MongoDB database for the application with database name of your choice.
 4. Configure data in .env.example file. In empty places input:
 	- PORT number in which you want the app to open (8888 by default)
@@ -40,7 +41,7 @@ To launch the application you must have Node.js and npm downloaded on your compu
 	- session key (it can be a string of random characters)
 5. Change the file's name from `.env.example` to `.env`.
 6. Add "uploads" directory in directory named "public" to be able to transfer images in the app (this step is not required).
-7. To launch the app enter `npm run start` into your CLI.
+7. To launch the app run `npm run start` command.
 8. View the launched app in a browser at a `localhost:PORT` adress (change "PORT" to the port number you have picked earlier).
 
 ## 🔍 Application Overview | Przegląd aplikacji
