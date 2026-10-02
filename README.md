@@ -1,20 +1,24 @@
 [EN]
 # </> Companies Web Catalog
-A web catalog of companies. Full-Stack web application made with JavaScript and Node.js.
+A full-Stack Companies Catalog Web application made with JavaScript and Node.js.
 
 ## ⌨️ Technologies
-`HTML` `CSS` `Bootstrap` `JavaScript` `Node.js` `MongoDB`
+- HTML
+- CSS
+- Bootstrap
+- JavaScript
+- Node.js
+- MongoDB
 
 ## 🚀 Features
 - User registration and login
-- Adding, editing and deleting companies to a catalog as a logged in user
-- Adding company's image/logo
-- Searching companies by name
-- Sorting searching results by name (A-Z, Z-A, employees nr ascending, employees nr descending)
-- Filtering searching results by min and max employees number
-- Pagination of searching results
-- Browsing catalog of companies as a not logged in user
-- Downloading CSV file with a list of searched companies
+- Add, edit and delete companies as a logged in user
+- Sort companies by name or number of employees
+- Search results by name
+- Filter search results by min and max number of employees 
+- Pagination of search results
+- Browse catalog of companies
+- Download CSV file with a list of searched companies
 
 ## 📖 Implemented concepts
 - MVC framework
@@ -46,56 +50,27 @@ Requirements: Node.js. As for database you can either choose on-line mongoDB dat
 
 ## 🔍 Application Overview | Przegląd aplikacji
 
-### #1.1 Homepage for not-logged in user
+### 1. Homepage for not-logged in user
+If you're logged in you will see user profile details.
 ![1_homepage](https://github.com/LetItBeMonia/CompaniesWebCatalog/assets/89008855/edd0f640-dba0-4c51-b89b-5127b8142be8)
 
-### #1.2 Homepage for logged-in user
-<img width="1917" height="523" alt="logged-in-user-homepage" src="https://github.com/user-attachments/assets/1cb9b506-ecca-42e0-bdc8-77227ce8a150" />
-
-### #2 Registration Form
+### 2. Registration Form
 ![2_registration](https://github.com/LetItBeMonia/CompaniesWebCatalog/assets/89008855/c8b7afe5-b4af-47e9-8669-22c12c250311)
 
-### #3 Editing user profile details
+### 3. Editing user profile details
 <img width="1917" height="790" alt="editing-profile-details" src="https://github.com/user-attachments/assets/395e3cb9-2a05-4abe-a866-24e89f586e7c" />
 
-### #4.1 Adding new company
-<img width="1917" height="711" alt="adding-dogs-company" src="https://github.com/user-attachments/assets/69995887-a07a-4528-9638-a142c8892afe" />
-
-### #4.2 New company added
+### 4. Companies catalog
 <img width="1917" height="908" alt="added-dogs-company" src="https://github.com/user-attachments/assets/9cb4939b-e4bc-471f-8c85-ebef492cf6e0" />
 
-### #5 Editing company's details
-You can edit details of the companies you added to the catalog and add a logo of your company.</br></br>
+### 5. Editing company's details
 <img width="1917" height="867" alt="editing-comapny-details-adding-image" src="https://github.com/user-attachments/assets/98ad4886-ba0b-40b5-b649-c94d1b3c5064" />
 
-### #6.1 Companies catalog
-Catalog displays list of companies added by registered users (for example CEOs or other authorised employees). You can sort or filter the list. At the bottom left corner there is navigation bar of pagination.</br></br>
-![3_companies_list](https://github.com/LetItBeMonia/CompaniesWebCatalog/assets/89008855/f91b9735-04d4-4a69-a296-cf3970053fb2)
-
-### #6.2 Companies catalog view for not-logged in user
-<img width="1916" height="906" alt="not-logged-in-user-catalog-view" src="https://github.com/user-attachments/assets/6f1b06ff-3ffc-4fae-835b-a440e351ead7" />
-
-### #6.3 Companies catalog view for logged in user
-<img width="1917" height="910" alt="companies-list" src="https://github.com/user-attachments/assets/600d6d65-c5ef-4ec6-a12c-3012a78cf5ea" />
-
-### #7 Displaying search results
-This is how results of a search are displayed. Search results for "mycompany" phrase.</br></br>
+### 6. Displaying search results
 ![5_search_results](https://github.com/LetItBeMonia/CompaniesWebCatalog/assets/89008855/a4f7b4e6-4a7c-41f7-a726-b25ab3f12883)
 
-### #8 Sorting search results
+### 7. Sorting
 <img width="1917" height="905" alt="sortowanie-od-z-do-a" src="https://github.com/user-attachments/assets/a5585582-43dd-4d90-b7a4-8d339084b320" />
-
-### #9 Sorting, filtering & pagination of search results
-<img width="1917" height="906" alt="filtrowanie-paginacja" src="https://github.com/user-attachments/assets/fb81844a-939b-4252-bdec-091d4f8f72dd" />
-
-### #10.1 Pagination - 1st site
-<img width="1917" height="906" alt="paginacja" src="https://github.com/user-attachments/assets/5479d6d9-c192-46fc-b626-852718cd4f69" />
-
-### #10.2 Pagination - 2nd site
-<img width="1917" height="795" alt="paginacja-2" src="https://github.com/user-attachments/assets/be405322-2fec-4c05-86d5-b7e78abd0ee8" />
-
-### #11 Downloading CSV file of companies list
-<img width="1913" height="792" alt="pobieranie_csv" src="https://github.com/user-attachments/assets/0a884449-3ca1-4c34-9f91-f15061a34080" />
 
 ---------------------------------------------------------------------------------------------------
 
@@ -106,18 +81,17 @@ This is how results of a search are displayed. Search results for "mycompany" ph
 ## Stack technologiczny:
 HTML  |  CSS  |  Bootstrap  |  JavaScript  |  Node.js  |  MongoDB
 
-## Funkcjonalności:
+## 🚀 Funkcjonalności
 - Rejestracja i logowanie użytkownika
 - Dodawanie, edytowanie i usuwanie firm z katalogu przez zalogowanego użytkownika
-- Dodawanie zdjęcia/logo firmy
+- Sortowanie wyników wyszukiwania według nazwy lub liczby pracowników
 - Wyszukiwanie firm po nazwie
-- Sortowanie wyników wyszukiwania według nazwy (A-Z, Z-A) oraz wg liczby pracowników rosnąco i malejąco
 - Filtrowanie wyników wyszukiwania według minimalnej i maksymalnej liczby pracowników
 - Paginacja wyników wyszukiwania
-- Możliwość przeglądania katalogu firm przez niezalogowanego użytkownika
+- Przeglądanie katalogu firm
 - Pobieranie pliku CSV z listą wyszukiwanych firm
 
-## Wykorzystane technologie i koncepcje:
+## 📖 Koncepcje
 - Architektura MVC
 - Schematy modeli (biblioteka Mongoose)
 - Silnik widoków (EJS)
@@ -131,7 +105,7 @@ HTML  |  CSS  |  Bootstrap  |  JavaScript  |  Node.js  |  MongoDB
 - Responsywność
 
 
-## Chcesz uruchomić aplikację na swoim komputerze? Skorzystaj z poniższej instrukcji.
+## 🚦 Uruchamianie aplikacji:
 Aby uruchomić projekt musisz mieć pobranego na komputer Node.js i npm. Jako bazy danych możesz użyć jednej z dwóch opcji: pobrać mongoDB na swój komputer lub utworzyć bazę danych, zakładając konto na stronie mongoDB. Następnie:
 1. Pobierz repozytorium na lokalny dysk.
 2. Ściągnij wykorzystane w projekcie moduły (node_modules) za pomocą komendy CLI "npm install" z poziomu katalogu, w którym znajduje się projekt.
