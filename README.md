@@ -51,7 +51,8 @@ Requirements: Node.js. As for database you can either choose on-line mongoDB dat
 ## 🔍 Application Overview | Przegląd aplikacji
 
 ### 1. Homepage for not-logged in user
-If you're logged in you will see user profile details.
+If you're logged in you will see user profile details instead.
+
 ![1_homepage](https://github.com/LetItBeMonia/CompaniesWebCatalog/assets/89008855/edd0f640-dba0-4c51-b89b-5127b8142be8)
 
 ### 2. Registration Form
